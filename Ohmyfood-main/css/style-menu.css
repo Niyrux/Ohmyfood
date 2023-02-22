@@ -332,6 +332,22 @@ h3.plats {
 .footer .logo {
     justify-content: end;
 }
+#delice .presentation  img{
+    content: url('../images/delice-pc.png');
+    max-height: 423px;
+}
+#francaise .presentation  img{
+    content: url('../images/francais-pc.png') ;
+    max-height: 423px;
+}
+#enchanter .presentation  img{
+    content: url('../images/note-pc.png') ;
+    max-height: 423px;
+}
+#palette .presentation  img{
+    content: url('../images/palette-gout-pc.png') ;
+    max-height: 423px;
+}
 }
 
 @keyframes fadein {
