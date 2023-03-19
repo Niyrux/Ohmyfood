@@ -17,7 +17,6 @@ body {
 header {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 
-    /* a refaire */
 }
 h1 {
     font-family: 'Shrikhand', cursive;
@@ -28,7 +27,6 @@ h1 {
     margin-bottom: 0;
 }
 
-/* fin */
 
 /* section 1*/
 
@@ -161,6 +159,7 @@ h1 {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: center;
 }
 
 .container-card-section-3 a {
@@ -270,11 +269,11 @@ footer h3 {
     opacity: 0;
 }
 
-.heart:active .heart-visible {
+.heart:hover .heart-visible {
     opacity: 0;
 }
 
-.heart:active .heart-hidden{
+.heart:hover .heart-hidden{
     opacity: 1;
     transition: ease all .3s;
 }
@@ -302,6 +301,14 @@ footer h3 {
     animation: loader  3s ;
     animation-iteration-count: 1;
 }
+
+.dot.deux {
+    animation-delay: 0.05s ;
+}
+
+.dot.trois {
+    animation-delay: 0.1s ;
+}
 .loader{
     position : fixed;
     z-index: 9999;
@@ -318,13 +325,12 @@ footer h3 {
     animation-fill-mode: both;
 }
 
-.dot.deux {
-    animation-delay: 0.05s ;
+.mailto {
+    color: white;
+    text-decoration: none;
 }
 
-.dot.trois {
-    animation-delay: 0.1s ;
-}
+
 @keyframes disablead {
     to {
         transform: scale(0);

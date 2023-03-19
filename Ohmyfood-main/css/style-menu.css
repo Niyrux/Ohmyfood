@@ -213,6 +213,11 @@ footer h3 {
     opacity: 0;
 }
 
+.mailto {
+    color: white;
+    text-decoration: none;
+}
+
 .heart:active .heart-hidden{
     opacity: 1;
     transition: ease all .3s;
